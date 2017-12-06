@@ -6,23 +6,23 @@ program should load an image by either reading it from a file or capturing it di
 3. The program should work for any size image. Make sure to test it on different size images.
 4. The matcher algorithm is KNN matcher in OpenCV. (see samples directory in OpenCV)
 5. The programs are written by using command line arguments as follows:
-• harris image.jpg detect key points using harris algorithm and show the keypoints in original image.
-• blob image.jpg - detect key points using blob algorithm and show the keypoints
+* harris image.jpg detect key points using harris algorithm and show the keypoints in original image.
+* blob image.jpg - detect key points using blob algorithm and show the keypoints
 in original image.
-• dog image.jpg detect key points using DoG Algorithm and show keypoints in
+* dog image.jpg detect key points using DoG Algorithm and show keypoints in
 original image.
-• m harris sift image1.jpg image2.jpg match and show results of image1 and
+* m harris sift image1.jpg image2.jpg match and show results of image1 and
 image2 using Harris detector and SIFT descriptor.
-• m dog sift image1.jpg image2.jpg - match and show results of image1 and
+* m dog sift image1.jpg image2.jpg - match and show results of image1 and
 image2 using DoG detector and SIFT descriptor.
-• m blob sift image1.jpg image2.jpg - match and show results of image1 and
+* m blob sift image1.jpg image2.jpg - match and show results of image1 and
 image2 using using Blob detector and SIFT descriptor.
-• m harris lbp image1.jpg image2.jpg - match and show results of image1 and image2 using Harris detector and LBP descriptor.
-• m dog lbp image1.jpg image2.jpg - match and show results of image1 and
+* m harris lbp image1.jpg image2.jpg - match and show results of image1 and image2 using Harris detector and LBP descriptor.
+* m dog lbp image1.jpg image2.jpg - match and show results of image1 and
 image2 using DoG detector and LBP descriptor.
-• m blob lbp image1.jpg image2.jpg - match and show results of image1 and
+* m blob lbp image1.jpg image2.jpg - match and show results of image1 and
 image2 using Blob detector and LBP descriptor.
-• h - Display a short description of the program, its command line arguments,
+* h - Display a short description of the program, its command line arguments,
 and the keys it supports.
 # Requirement
 In this assignment you need to implement one or several possible applications as described below:
